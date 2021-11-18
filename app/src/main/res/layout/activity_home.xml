@@ -8,6 +8,14 @@
     android:background="@drawable/home_background"
     tools:context=".HomeActivity">
 
+    <com.google.android.material.bottomnavigation.BottomNavigationView
+        android:layout_alignParentBottom="true"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/navBar"
+        android:background="@color/white"
+        app:menu="@menu/bottom_nav_menu"/>
+
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
