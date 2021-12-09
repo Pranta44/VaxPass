@@ -21,6 +21,7 @@ public class MainActivity extends AppCompatActivity {
         TextView password = (TextView) findViewById(R.id.etPassword);
 
         MaterialButton btnLogin = (MaterialButton) findViewById(R.id.btnLogin);
+        MaterialButton btnSignUp= (MaterialButton) findViewById(R.id.btnSignUp);
 
         //admin and admin
         btnLogin.setOnClickListener(new View.OnClickListener() {
@@ -37,6 +38,15 @@ public class MainActivity extends AppCompatActivity {
                 }
             }
         });
+
+        //sign up button
+        btnSignUp.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                openRegister();
+            }
+        });
+
     }
 
     public void openHomePage(){
