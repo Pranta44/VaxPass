@@ -14,7 +14,7 @@ public class HomeActivity extends AppCompatActivity {
         setContentView(R.layout.activity_home);
     }
 
-    BottomNavigationView bottomNavigationView = (BottomNavigationView) findViewById(R.id.navBar);
+    //BottomNavigationView bottomNavigationView = (BottomNavigationView) findViewById(R.id.navBar);
 
 
 
