@@ -61,14 +61,14 @@
         android:layout_centerHorizontal="true"
         android:layout_margin="20dp"/>
 
-    <TextView
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/btnSignUp"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:id="@+id/tvForgetPass"
-        android:text="Forgot Password?"
         android:layout_below="@id/btnLogin"
-        android:textColor="@color/white"
+        android:backgroundTint="@color/teal_700"
+        android:text="Sign-Up"
         android:layout_centerHorizontal="true"
-        android:layout_margin="10dp"/>
+        android:layout_margin="20dp"/>
 
 </RelativeLayout>

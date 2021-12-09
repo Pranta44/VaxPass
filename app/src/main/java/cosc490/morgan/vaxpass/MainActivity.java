@@ -45,4 +45,9 @@ public class MainActivity extends AppCompatActivity {
         //start activity with that intent
         startActivity(intent);
     }
+
+    public void openRegister(){
+        Intent intent = new Intent(this, RegisterUser.class);
+        startActivity(intent);
+    }
 }
