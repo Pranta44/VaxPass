@@ -7,4 +7,14 @@
     tools:context=".VaccinationRecordActivity"
     android:background="@drawable/new_record_background">
 
+    <com.google.android.material.bottomnavigation.BottomNavigationView
+        android:id="@+id/navBar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:background="@color/white"
+        app:menu="@menu/bottom_nav_menu"
+        tools:layout_editor_absoluteX="-34dp"
+        tools:layout_editor_absoluteY="674dp" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>

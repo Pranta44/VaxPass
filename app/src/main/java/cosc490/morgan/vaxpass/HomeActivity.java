@@ -20,6 +20,8 @@ public class HomeActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_home);
 
+
+        // Start: Bottom Navigation Bar //
         BottomNavigationView bottomNavigationView = findViewById(R.id.navBar);
 
         bottomNavigationView.setSelectedItemId(R.id.ic_home);
@@ -39,14 +41,6 @@ public class HomeActivity extends AppCompatActivity {
                 }
             }
         });
-//        NavController navController = Navigation.findNavController(this,R.id.nav_controller_view_tag);
-//        NavigationUI.setupWithNavController(bottomNavigationView,navController);
-
-
+        // End: Bottom Navigation Bar//
     }
-
-    //BottomNavigationView bottomNavigationView = (BottomNavigationView) findViewById(R.id.navBar);
-
-
-
 }

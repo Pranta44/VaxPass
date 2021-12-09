@@ -7,4 +7,14 @@
     tools:context=".CovidInfoActivity"
     android:background="@drawable/covid_facts_background">
 
+    <com.google.android.material.bottomnavigation.BottomNavigationView
+        android:id="@+id/navBar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:background="@color/white"
+        app:menu="@menu/bottom_nav_menu"
+        tools:layout_editor_absoluteX="35dp"
+        tools:layout_editor_absoluteY="678dp" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>
