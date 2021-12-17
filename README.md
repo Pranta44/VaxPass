@@ -5,18 +5,18 @@
 2. [Product Spec](#Product-Spec)
 3. [Installation](#Installation)
 4. [Wireframes](#Wireframes)
-5. [Developer Notes](#Developer Notes)
+5. [Developer Notes](#Developer-Notes)
 
 ## Overview
 ### Description
 VaxPass is a virtual vaccination card specifically designed to display vaccination cards for COVID-19. In future updates, other vaccinations may be included. Users will be able to do the following: 
-- [] Login to app
-- [] Register if new user 
-- [] Access profile page and vaccination records 
-- [] Upload vaccination record details 
-- [] Upload image of vaccination card 
-- [] Verify vaccination status 
-- [] Access COVID-19 facts and resources 
+- Login to app
+- Register if new user 
+- Access profile page and vaccination records 
+- Upload vaccination record details 
+- Upload image of vaccination card 
+- Verify vaccination status 
+- Access COVID-19 facts and resources 
 
 ## Product Spec
 This project was primarily built in Android Studio and completely implemented with Java code. I also used Back4App to create and manage the database of users. 
