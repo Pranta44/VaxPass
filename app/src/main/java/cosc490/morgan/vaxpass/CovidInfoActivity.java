@@ -9,6 +9,9 @@ import android.view.MenuItem;
 
 import com.google.android.material.bottomnavigation.BottomNavigationView;
 
+import cosc490.morgan.vaxpass.activities.HomeActivity;
+import cosc490.morgan.vaxpass.activities.VaccinationRecordActivity;
+
 public class CovidInfoActivity extends AppCompatActivity {
 
     @Override
@@ -25,10 +28,10 @@ public class CovidInfoActivity extends AppCompatActivity {
             public void onNavigationItemReselected(@NonNull MenuItem item) {
                 switch (item.getItemId()){
                     case R.id.ic_home:
-                        startActivity(new Intent(getApplicationContext(),HomeActivity.class));
+                        startActivity(new Intent(getApplicationContext(), HomeActivity.class));
                         overridePendingTransition(0,0);
                     case R.id.ic_record:
-                        startActivity(new Intent(getApplicationContext(),VaccinationRecordActivity.class));
+                        startActivity(new Intent(getApplicationContext(), VaccinationRecordActivity.class));
                         overridePendingTransition(0,0);
                     case R.id.ic_info:
                         startActivity(new Intent(getApplicationContext(),CovidInfoActivity.class));

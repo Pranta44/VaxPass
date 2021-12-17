@@ -13,16 +13,16 @@
             android:name=".CovidInfoActivity"
             android:exported="true" />
         <activity
-            android:name=".VaccinationRecordActivity"
+            android:name=".activities.VaccinationRecordActivity"
             android:exported="true" />
         <activity
             android:name=".VaxActivity"
             android:exported="true" />
         <activity
-            android:name=".HomeActivity"
+            android:name=".activities.HomeActivity"
             android:exported="true" />
         <activity
-            android:name=".MainActivity"
+            android:name=".activities.MainActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

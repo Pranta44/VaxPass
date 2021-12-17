@@ -1,4 +1,4 @@
-package cosc490.morgan.vaxpass;
+package cosc490.morgan.vaxpass.activities;
 
 import androidx.appcompat.app.AppCompatActivity;
 
@@ -10,7 +10,10 @@ import android.widget.Toast;
 
 import com.google.android.material.button.MaterialButton;
 
-public class MainActivity extends AppCompatActivity {
+import cosc490.morgan.vaxpass.R;
+import cosc490.morgan.vaxpass.RegisterUser;
+
+public class  MainActivity extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
