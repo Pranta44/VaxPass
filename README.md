@@ -30,6 +30,11 @@ the app.
 
 ## Wireframes
 Below are the initial wireframe images I used to model the screens of my application after: 
+<img src='https://github.com/TeannaP18/VaxPass/blob/master/wireframes/IMG-1005.JPG'>
+<img src='https://github.com/TeannaP18/VaxPass/blob/master/wireframes/IMG-1006.JPG'>
+<img src='https://github.com/TeannaP18/VaxPass/blob/master/wireframes/IMG-1007.JPG'>
+<img src='https://github.com/TeannaP18/VaxPass/blob/master/wireframes/IMG-1008.JPG'>
+<img src='https://github.com/TeannaP18/VaxPass/blob/master/wireframes/IMG-1009.JPG'>
 
 
 ## Developer Notes 
