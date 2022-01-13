@@ -39,6 +39,7 @@ public class CovidInfoActivity extends AppCompatActivity {
                 }
             }
         });
+        //Hello
         // End: Bottom Navigation Bar//
     }
 }
